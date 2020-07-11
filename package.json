@@ -29,10 +29,13 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "bezier-easing": "^2.0.3",
+    "bezier-easing": "^2.0.3"
+  },
+  "peerDependencies": {
     "pixi.js": "^5.0.4"
   },
   "devDependencies": {
+    "pixi.js": "^5.0.4",
     "@pixi/jsdoc-template": "^2.4.2",
     "@typescript-eslint/eslint-plugin": "^1.11.0",
     "@typescript-eslint/parser": "^1.11.0",
