@@ -2,9 +2,9 @@
   "name": "pixi-after-effects",
   "version": "1.0.4",
   "description": "play AfterEffects animation by pixi.js",
-  "main": "src/index.js",
+  "main": "dist/ts/index.js",
   "scripts": {
-    "build": "webpack --mode production",
+    "build": "tsc --outDir dist/ts -p . && webpack --mode production",
     "server": "webpack-dev-server --host 0.0.0.0 --progress --port 5000 --mode development",
     "lint": "eslint . --ext .ts",
     "lint:fix": "yarn lint --fix",
@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/knocknote/pixi-after-effects/issues"
   },
-  "types": "src",
+  "types": "dist/ts/index.ts.d",
   "homepage": "https://github.com/knocknote/pixi-after-effects",
   "author": "",
   "license": "MIT",
