@@ -4,7 +4,7 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   devtool: "source-map",
-  entry: "./src/index.ts",
+  entry: "./src/demo.ts",
   output: {
     publicPath: "/",
     path: path.resolve(__dirname, "dist"),
